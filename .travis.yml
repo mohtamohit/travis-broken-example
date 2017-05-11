@@ -7,7 +7,6 @@ php:
 
 script:
   - phpunit Test.php
-  - make zip
 
 deploy:
   provider: releases
